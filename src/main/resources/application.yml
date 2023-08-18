@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/data
+    username: luana
+    password: salmito
+
+  jpa:
+    show-sql: true
+    hibernate:
+      dll-auto: update
